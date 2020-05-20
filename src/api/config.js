@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const baseUrl = 'http://localhost:4001';
+export const baseUrl = 'http://175.24.48.116:4000';
 // axios的实例及拦截器配置
 const axiosInstance = axios.create({
   baseURL: baseUrl
@@ -18,7 +18,7 @@ export {
   axiosInstance
 };
 
-//歌手种类
+
 export const categoryTypes = [{
   name: "华语男",
   key: "1001"
